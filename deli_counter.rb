@@ -22,7 +22,7 @@ def now_serving (kats_deli)
     kats_deli.shift
   end
 end
-  
+
 
 kats_deli = ["Elle", "Margot"]
 
