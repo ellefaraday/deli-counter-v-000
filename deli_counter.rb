@@ -2,9 +2,9 @@ def line (kats_deli)
   if kats_deli == []
     puts "The line is currently empty."
   else
-    line ="The line is currently: "
+    line ="The line is currently:"
     kats_deli.collect.with_index {|name, index|
-      line << "#{index+1}. #{name}  "}
+      line << " #{index+1}. #{name}"}
     puts line
   end
 end
