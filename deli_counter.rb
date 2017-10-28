@@ -14,6 +14,16 @@ def take_a_number(kats_deli, name)
   puts "Welcome, #{name}. You are number #{kats_deli.index(name)+1} in line."
 end
 
+def now_serving (kats_deli)
+  if kats_deli == []
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{kats_deli[0]}"
+    kats_deli.shift
+  end
+end
+  
+
 kats_deli = ["Elle", "Margot"]
 
 line(kats_deli)
