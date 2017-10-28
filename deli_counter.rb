@@ -24,7 +24,3 @@ def now_serving (kats_deli)
 end
 
 
-kats_deli = ["Elle", "Margot"]
-
-now_serving(kats_deli)
-puts kats_deli
