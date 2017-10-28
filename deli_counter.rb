@@ -11,6 +11,7 @@ end
 
 def take_a_number(kats_deli, name)
   kats_deli.push(name)
+  puts "Welcome, #{name}. You are number #{kats_deli.index(name)+1} in line."
 end
 
 kats_deli = ["Elle", "Margot"]
