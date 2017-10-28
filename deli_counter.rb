@@ -9,6 +9,10 @@ def line (kats_deli)
   end
 end
 
+def take_a_number(kats_deli, name)
+  kats_deli.push(name)
+end
+  
 kats_deli = ["Elle", "Margot"]
 
 line(kats_deli)
