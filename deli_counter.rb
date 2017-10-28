@@ -26,4 +26,5 @@ end
 
 kats_deli = ["Elle", "Margot"]
 
-line(kats_deli)
+now_serving(kats_deli)
+puts kats_deli
