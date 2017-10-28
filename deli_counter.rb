@@ -5,6 +5,7 @@ def line (kats_deli)
     line ="The line is currently: "
     kats_deli.collect.with_index {|name, index|
       line << "#{index+1}. #{name}  "}
+    puts line
   end
 end
 
